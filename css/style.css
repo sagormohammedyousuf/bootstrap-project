@@ -1,0 +1,42 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+.map{
+    height: 100%;
+    width:100%
+}
+
+.sec{
+   
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+
+    
+
+  }
+
+@media (max-width:768px){
+    .text{
+        text-align:justify
+        ;
+    }
+}
